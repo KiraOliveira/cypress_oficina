@@ -1,0 +1,16 @@
+{
+  "name": "cypress_oficina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "cypress": "^10.6.0"
+  }
+}
