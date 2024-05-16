@@ -1,4 +1,3 @@
 # cypress_oficina
-Oficina com o pessoal da Compass
-
+Oficina com o pessoal da Compass.
 
