@@ -4,8 +4,7 @@ import {faker} from '@faker-js/faker'
 
 describe('Testes no front end da ServeRest', () => {
 
-
-  beforeEach('Login com sucesso no front.serverest', () => {
+    beforeEach('Login com sucesso no front.serverest', () => {
     cy.login()    
   })
 
@@ -18,7 +17,7 @@ describe('Testes no front end da ServeRest', () => {
   
   // })
 
-  it.only('Deve acessar a lista de usuário e validar um usuário cadastrado', () => {
+  it('Deve acessar a lista de usuário e validar um usuário cadastrado', () => {
     let usuarioCadastrado = "Johnnie Waters"
 
     cy.get('[data-testid="listar-usuarios"]').click()

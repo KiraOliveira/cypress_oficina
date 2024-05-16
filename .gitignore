@@ -1,5 +1,6 @@
 node_modules
 cypress/videos
+cypress/fixtures
 cypress/screenshots
 results
 results/*.xml
