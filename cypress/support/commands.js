@@ -28,8 +28,8 @@ import loginPageUser from '../support/pages/loginPage'
 
 Cypress.Commands.add('login', (email, password) => {
 
-    //it.only('Login com sucesso no front.serverest', () => {
         cy.visit('https://front.serverest.dev/')  
+
         // Aqui ele valida o Elementos da Tela
         loginPageUser.screenLoginElements();
 
@@ -42,5 +42,4 @@ Cypress.Commands.add('login', (email, password) => {
         loginPageUser.register();     
 
         loginPageUser.loginSucess();
-      })  
-    //})
+    })  

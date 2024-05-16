@@ -2,5 +2,6 @@ node_modules
 cypress/videos
 cypress/fixtures
 cypress/screenshots
+cypress/downloads
 results
 results/*.xml
