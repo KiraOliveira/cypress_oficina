@@ -1,3 +1,5 @@
+import loginPageUser from '../support/pages/loginPage'
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -27,12 +29,18 @@
 Cypress.Commands.add('login', (email, password) => {
 
     //it.only('Login com sucesso no front.serverest', () => {
-        cy.visit('https://front.serverest.dev/')
-        cy.get('[data-testid="email"]').type('Elody67@hotmail.com')
-        cy.get('[data-testid="senha"]').type('UT6g42nZEbjmT7D')
-        cy.get('[data-testid="entrar"]').click()
-        cy.get('.imagem').should('be.visible') //assertion na doc do cypress
-        cy.get('.imagem')
-    
+        cy.visit('https://front.serverest.dev/')  
+        // Aqui ele valida o Elementos da Tela
+        loginPageUser.screenLoginElements();
+
+        loginPageUser.loginEmailError();
+
+        loginPageUser.loginPasswordError();
+          
+        loginPageUser.notRegistration();
+
+        loginPageUser.register();     
+
+        loginPageUser.loginSucess();
       })  
-    
+    //})

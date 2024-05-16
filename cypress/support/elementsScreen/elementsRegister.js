@@ -15,10 +15,15 @@ const elementsRegister = {
     checkLabelAdm: '.form-check-label',
     
     messagem: '.message',
-    buttonEnter: '[data-testid="entrar"]'
+    buttonEnter: '[data-testid="entrar"]',
 
+    // Já cadastrado
 
-
+    message: {
+        fielText: '.alert',
+        sucesso: '.alert > :nth-child(2)', // Cadastro realizado com sucesso!
+        error: '.alert > :nth-child(2)'   // Este email já está sendo usado  
+    }
 }
 
 export default elementsRegister;
