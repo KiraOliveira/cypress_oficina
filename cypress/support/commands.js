@@ -42,4 +42,4 @@ Cypress.Commands.add('login', (email, password) => {
         loginPageUser.register();     
 
         loginPageUser.loginSucess();
-    })  
+    })

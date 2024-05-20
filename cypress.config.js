@@ -10,6 +10,7 @@ module.exports = defineConfig({
       setupNodeEvents(on, config) {
         // implement node event listeners here
       },
+      baseUrl: 'https://front.serverest.dev/',
       viewportHeight: 768,
       viewportWidth: 1024,
       video: true,
