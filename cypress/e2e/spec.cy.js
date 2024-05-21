@@ -1,5 +1,6 @@
 //import {faker} from '@faker-js/faker'
 import usersPage from '../support/pages/usersPage'
+import registerPage from '../support/pages/registerPage';
 
 /// <reference types="Cypress" />
 
@@ -17,7 +18,10 @@ describe('Testes no front end da ServeRest', () => {
 
       usersPage.listUsers();  
   })
+    it('Deve acesssar a tela de "Cadastrar Usuários" e realizar um cadastro')
+
+      registerPage
     
-  })
+})
 
 

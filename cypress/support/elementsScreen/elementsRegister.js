@@ -4,7 +4,7 @@ const elementsRegister = {
     // Botão de Cadastro na tela de Login
     buttonRegister:  '[data-testid="cadastrar"]',
 
-    // Tela do Cadastro
+    // Tela do Cadastro - Inicial
     modalRegister: '.form',
     imgTitle: '.imagem',
     titleModal: '.font-robot',
@@ -18,12 +18,14 @@ const elementsRegister = {
     buttonEnter: '[data-testid="entrar"]',
 
     // Já cadastrado
-
     message: {
         fielText: '.alert',
         sucesso: '.alert > :nth-child(2)', // Cadastro realizado com sucesso!
-        error: '.alert > :nth-child(2)'   // Este email já está sendo usado  
-    }
+        error: '.alert > :nth-child(2)'  // Este email já está sendo usado  
+    },
+
+    // Tela do Cadastro - Interna
+    
 }
 
 export default elementsRegister;

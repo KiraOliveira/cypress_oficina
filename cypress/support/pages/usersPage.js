@@ -49,7 +49,7 @@ class usersPage {
         cy.get(elementsUsers.columnsName).should('exist').and('be.visible').and('contain.text', 'Nome')    
         let usuarioCadastrado = "Kira"
         cy.get(elementsUsers.screenAll).should('exist').and('be.visible').and('have.a.property', 'text')
-        cy.get(elementsUsers.screenAll).should('contain.text', usuarioCadastrado)
+        cy.get(elementsUsers.screenAll).should('contain.text', usuarioCadastrado).screenshot()
 
         cy.get(elementsUsers.columnsEmail).should('exist').and('be.visible').and('contain.text', 'Email')
         cy.get(elementsUsers.contentEmail).should('exist').and('be.visible').and('not.be.empty')
