@@ -21,6 +21,7 @@ import loginPageUser from '../support/pages/loginPage'
 //
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+
 //
 //
 // -- This will overwrite an existing command --
@@ -43,3 +44,4 @@ Cypress.Commands.add('login', (email, password) => {
 
         loginPageUser.loginSucess();
     })
+   

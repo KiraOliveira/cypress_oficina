@@ -18,9 +18,15 @@ describe('Testes no front end da ServeRest', () => {
 
       usersPage.listUsers();  
   })
-    it('Deve acesssar a tela de "Cadastrar Usuários" e realizar um cadastro')
 
-      registerPage
+    it('Deve acesssar a tela de "Cadastrar Usuários" e realizar um cadastro', () => {
+      
+      registerPage.acessRegisterUsers();
+
+      registerPage.dataRegisterUsers();
+
+    })
+    
     
 })
 
