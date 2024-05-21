@@ -1,0 +1,15 @@
+{
+    "email": {
+        "sucess": "kira30saas@gmail.com",
+        "error": "kira@gmail.com"
+    },
+    "password": {
+        "sucess": "123456", 
+        "error": "1547"
+    },
+    "message": {
+        "error": "Email e/ou senha inválidos"
+    }
+
+}
+
