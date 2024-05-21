@@ -1,6 +1,6 @@
 import elementsUsers from "../elementsScreen/elementsUsers";
 import elementsRegister from "../elementsScreen/elementsRegister";
-import users from "../../fixtures/users.json" 
+//import users from "../../fixtures/users.json" 
 
 class registerUsers {
 
