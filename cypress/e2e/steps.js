@@ -26,10 +26,11 @@ describe('Testes no front end da ServeRest', () => {
       registerPage.dataRegisterUsers();
 
     })
+    it ('Deve acessar a tela de "Cadastrar Produtos" e realizar um cadastro', () => {
 
-    
-    
-    
+          
+    })
+      
 })
 
 
