@@ -1,3 +1,5 @@
+
+
 const elementsRegisterProducts = {
 
     blockNameProduct: ':nth-child(3) > .mb-3', 
@@ -21,5 +23,7 @@ const elementsRegisterProducts = {
     fieldImageProduct: '[data-testid="imagem"]',
 
     buttonRegisterProduct: '[data-testid="cadastarProdutos"]'
+
+
 
 }
